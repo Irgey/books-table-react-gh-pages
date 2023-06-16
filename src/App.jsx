@@ -17,10 +17,7 @@ const App = () => {
       </nav>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/books" element={<BooksPage />}>
-          {" "}
-          <Route path="/books/:bookId" element={<BooksDetails />} />
-        </Route>
+        <Route path="/books" element={<BooksPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
