@@ -247,4 +247,4 @@ Error generating stack: `+o.message+`
   &.active {
     color: orange;
   }
-`;const kB=new SC;qf.createRoot(document.getElementById("root")).render(w.jsx(DC,{client:kB,children:w.jsx(eC,{children:w.jsx(OB,{})})}));
+`;const kB=new SC;qf.createRoot(document.getElementById("root")).render(w.jsx(DC,{client:kB,children:w.jsx(eC,{basename:"books-table-react-gh-pages",children:w.jsx(OB,{})})}));
