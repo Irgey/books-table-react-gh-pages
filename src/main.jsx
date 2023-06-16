@@ -7,7 +7,7 @@ import "modern-normalize";
 const queryClient = new QueryClient();
 ReactDOM.createRoot(document.getElementById("root")).render(
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
+    <BrowserRouter basename="books-table-react-gh-pages">
       <App />
     </BrowserRouter>
   </QueryClientProvider>
